@@ -5,3 +5,30 @@ p{
     background-color: aqua
     
 }
+
+
+/* pseudoselektory */
+
+/*Komentarz*/
+#par1::before, #par1::after {
+    
+    content: "*";
+    color:#fff;
+    font-size: 3em;
+    
+}
+#par2::first-line {
+    color: red
+}
+#par2::first-letter {
+    font-size: 10em
+}
+   /* pseudoklasy */   
+visited: {
+    color: crimsom
+}
+a:hover {
+    color: green;
+    font-size: 2em;
+    
+}
