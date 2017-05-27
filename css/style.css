@@ -37,7 +37,7 @@ p:target {
     background-color: hotpink
 }
 p:lang(pl) {
-    background-color: white
+    background-color: bisque
 }
 li:first-child {
     font-size: 3em}
@@ -53,21 +53,26 @@ div: empty {
         height: 200px
         background color: yellow}
 li:nth-child(odd) {
-    background-color: darkviolet
+    background-color: greenyellow
 }
 li:nth-child(4) {
-    background-color: skyblue}
+    background-color: yellow}
 li:nth-child(3n) {
     background-color: darkgray}
 li:nth-child(2n*1) {
-    background-color: darkblue}
+    background-color: red}
 
         
         
-     
-        
-        
+/* selektory atrybutów */
+input[title]{
+    background-color: aquamarine;
     
+}
+input [type=text]{
+    background-color: red;}
+input[title="tytuł"]{
+    background-color: deepskyblue;
 }
 
         
