@@ -42,3 +42,9 @@ input: focus {
 p:target {
     background-color: hotpink
 }
+p:lang(pl) {
+    background-color: white
+}
+li:first-child {
+    font-size: 3em
+}
