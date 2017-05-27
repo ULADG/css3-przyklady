@@ -1,10 +1,4 @@
-*{background-color: yellow
-}
-
-p{
-    background-color: aqua
-    
-}
+/*
 
 
 /* pseudoselektory */
@@ -57,7 +51,22 @@ p span:only-child {
 div: empty {
     width: 600px
         height: 200px
-        background color: yellow
+        background color: yellow}
+li:nth-child(odd) {
+    background-color: darkviolet
+}
+li:nth-child(4) {
+    background-color: skyblue}
+li:nth-child(3n) {
+    background-color: darkgray}
+li:nth-child(2n*1) {
+    background-color: darkblue}
+
+        
+        
+     
+        
+        
     
 }
 
