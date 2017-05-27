@@ -39,3 +39,6 @@ input: focus {
     background-color: blue
     
 }
+p:target {
+    background-color: hotpink
+}
