@@ -69,10 +69,22 @@ input[title]{
     background-color: aquamarine;
     
 }
-input [type=text]{
+input [type="text"]{
     background-color: red;}
 input[title="tytuł"]{
-    background-color: deepskyblue;
+    background-color: grey}
+
+input[title="po"]{
+    background-color: firebrick;
+}
+input[title*="tyt"]{
+    background-color: blueviolet
+}
+input[title^="tytuł"]{
+    background-color: pink
+}
+input[title$="tytuł"]{
+    background-color: palegoldenrod
 }
 
         
